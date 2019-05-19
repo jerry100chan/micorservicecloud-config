@@ -6,11 +6,11 @@ spring:
       
 spring:
   profiles: dev    # 开发环境
-    applicaion: 
-      name: microsericecloud-config-atguigu-dev
+  applicaion: 
+    name: microsericecloud-config-atguigu-dev
       
 ---
 spring:
   profiles: test   # 测试环境
-    applicaion: 
-      name: microsericecloud-config-atguigu-test
+  applicaion: 
+    name: microsericecloud-config-atguigu-test
