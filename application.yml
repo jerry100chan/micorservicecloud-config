@@ -2,13 +2,15 @@ spring:
   profiles:
     active:
       -dev
+---
       
 spring:
-  profiles: dev
+  profiles: dev    # 开发环境
     applicaion: 
       name: microsericecloud-config-atguigu-dev
       
+---
 spring:
-  profiles: dev
+  profiles: test   # 测试环境
     applicaion: 
-      name: microsericecloud-config-atguigu-dev
+      name: microsericecloud-config-atguigu-test
