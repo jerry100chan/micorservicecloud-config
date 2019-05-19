@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      -dev
+      
+spring:
+  profiles: dev
+    applicaion: 
+      name: microsericecloud-config-atguigu-dev
+      
+spring:
+  profiles: dev
+    applicaion: 
+      name: microsericecloud-config-atguigu-dev
